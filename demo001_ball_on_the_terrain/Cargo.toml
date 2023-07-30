@@ -1,0 +1,15 @@
+[package]
+name = "demo001_ball_on_the_terrain"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.72"
+bevy = { version = "0.10.1", features = ["dynamic_linking"] }
+bevy_fly_camera = "0.10.0"
+bitintr = "0.3.0"
+image = "0.24.6"
+nalgebra = "0.32.3"
+palette = "0.7.2"
